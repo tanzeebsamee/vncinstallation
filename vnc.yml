@@ -1,0 +1,6 @@
+---
+ - name: Configure VNC on CentOS/RHEL/Debian System
+   become: true
+   hosts: all
+   roles:
+    - {role: sdarwin.vnc}
