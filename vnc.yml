@@ -3,4 +3,4 @@
    become: true
    hosts: all
    roles:
-    - {role: sdarwin.vnc}
+    - sdarwin.vnc
